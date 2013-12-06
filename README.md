@@ -1,5 +1,7 @@
 # Web Security Proof of Concept
 
+You can find my first talk on XSS and SQL injection on https://speakerdeck.com/yeukhon/introduction-to-web-security
+
 ## Getting Started
 
 
