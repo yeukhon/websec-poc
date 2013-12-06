@@ -18,7 +18,7 @@ virtual machine.
 ```
    $ git clone https://github.com/yeukhon/websec-poc.git
    $ cd websec-poc
-   $ vagrant up --with-provision
+   $ vagrant up --provision
 ```
 
 Note if this is your first time the last command will take a while to complete
