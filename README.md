@@ -31,9 +31,11 @@ while to complete because vagrant will download a ISO around 300MB.
    $ vagrant ssh
 ```
 
-This command is only usable if you are under websec-poc. You can also
-do ``ssh vagrant:vagrant@192.168.33.60``. This is the IP of the machine, by the
-way.
+This command is only usable if you are under websec-poc.
+
+The machine is created with the IP ``192.168.33.60`` and the username and password
+are ``vagrant`` and ``vagrant``, respectively. So you can SSH into the machine 
+without the custom vagrant command if you want.
 
 When you are done, just ``vagrant halt``. And next time when you want to launch it
 again, you just need to call ``vagrant up``.
