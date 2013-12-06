@@ -21,8 +21,9 @@ virtual machine.
    $ vagrant up --provision
 ```
 
-Note if this is your first time the last command will take a while to complete
-because vagrant will download a ISO around 300, 350 MB.
+The ``--provision`` is used to bootstrap the VM once the VM has been
+created. Note if this is your first time the last command will take a 
+while to complete because vagrant will download a ISO around 300MB.
 
 ```
    $ vagrant ssh
@@ -32,7 +33,8 @@ This command is only usable if you are under websec-poc. You can also
 do ``ssh vagrant:vagrant@192.168.33.60``. This is the IP of the machine, by the
 way.
 
-When you are done, just ``vagrant halt``.
+When you are done, just ``vagrant halt``. And next time when you want to launch it
+again, you just need to call ``vagrant up``.
 
 ## Setup locally
 
