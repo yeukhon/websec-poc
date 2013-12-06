@@ -47,8 +47,7 @@ and only works on Linux. So, use the VM please...
 
 ## Launch server
 
-Once you have logged into the machine, you can the proof of concept servers by
-opening two terminals:
+You need two terminals. Log into the VM in both terminals:
 
 ```
     $ cd websec-poc
